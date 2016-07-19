@@ -1,0 +1,20 @@
+@baseColor: #446CB3;
+
+.border-radius(@params) {
+	-webkit-transition: @params;
+	-moz-transition: @params;
+	-o-transition: @params;
+	transition: @params;
+
+}
+
+body {
+	color: @baseColor;
+	width: 10 + 10px;
+	a {
+		color: @baseColor;
+	}
+	img {
+		.border-radius(50%);
+	}
+}

@@ -1,0 +1,13 @@
+body {
+  color: #446CB3;
+  width: 20px;
+}
+body a {
+  color: #446CB3;
+}
+body img {
+  -webkit-transition: 50%;
+  -moz-transition: 50%;
+  -o-transition: 50%;
+  transition: 50%;
+}

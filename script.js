@@ -6,7 +6,7 @@ $( ".progress" ).click(function() {
   		$( ".progress-bar" ).animate({
     	width: "100%"
   		}, 1000, 'linear', function() {
-    	$( this ).append( "<div>Animation complete.</div>" );
+    	$( this ).append( "<div>! Animation error !</div>" );
   		});
 	});
 
