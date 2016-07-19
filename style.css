@@ -1,0 +1,15 @@
+body { 
+	padding-top: 70px; 
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: #89C4F4;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+	background-color: grey;
+}
+
+.navbar-app{
+	background-color: #59ABE3;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "standard/bootstrap1",
+    "authors": [
+        {
+            "name": "Aequin0x",
+            "email": "thibaut.desrame@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^3.3",
+        "components/jquery": "^2.2.4"
+    }
+}
