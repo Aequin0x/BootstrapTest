@@ -58,6 +58,7 @@
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 	</nav>
+	<div class="container-fluid">
 	<ol class="breadcrumb">
  	 	<li><a href="#">Home</a></li>
   		<li><a href="#">Library</a></li>
@@ -189,15 +190,58 @@
     </div>
   </div>
 </div>
+
 <div class="row">
 	<div class="col-10-md col-md-offset-1">
 		<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
-		
+
 		<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button>
 
 		<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
 
 		<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</button>
+	</div>
+</div>
+	<div class="container">
+		
+			<h2>Carousel</h2>
+			<div class="col-4-md">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="http://img0.mxstatic.com/wallpapers/44e535006cffbc1b6e41f72d5e9df1e4_large.jpeg" alt="ete">
+		      <div class="carousel-caption">
+		        Eté
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="http://www.photo-paysage.com/albums/userpics/10001/Jour_d_automne_sous_la_pluie_-02~0.jpg" alt="automne">
+		      <div class="carousel-caption">
+		        Automne
+		      </div>
+		    </div>
+		   
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+		</div>
 	</div>
 </div>
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
